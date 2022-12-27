@@ -12,7 +12,7 @@ int calc(vector<int> a, int max, int left, int right) {
 	return res;
 }
 
-// O(n*k)
+// O(max(k*k, n))
 int approach1() {
 	int n, slope = 1, tmp, left, right, i, res = 0;
 	vector<int> a;
