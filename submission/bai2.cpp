@@ -30,7 +30,7 @@ int approach1() {
 	for (int i = 2; i <= n; ++i) {
 		int s = i * 2;
 		for (set<int>::iterator it = primes.begin(); it != primes.end(); ++it) {
-			if (*it >= s / 2) break;
+			if (*it > s / 2) break;
 			if (primes.find(s - *it) != primes.end()) {
 				g[i-2]++;	
 			}

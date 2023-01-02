@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-// O(n*n)
+// O( min(n,m) )
 int approach1() {
     string s, p;
     cin >> s >> p;
@@ -41,7 +41,7 @@ int approach1() {
 
 int main() {
 	freopen("input/bai9.in", "r",stdin);
-    freopen("output/bai9.out", "w",stdout);
+//    freopen("output/bai9.out", "w",stdout);
     
     approach1();
     

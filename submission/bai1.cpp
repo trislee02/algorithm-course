@@ -10,7 +10,25 @@ int gcd(int a, int b) {
 	return a + b;
 }
 
-// O(n*k)
+// O( n*log(n)*log(max_A) )
+int approach2() {
+	int n, k, b, maxG = 1;
+    vector<int> a;
+    
+    cin >> n >> k;
+	for (int i = 0; i < n; ++i) {
+		cin >> b;
+		a.push_back(b);
+	}    
+	
+	// Build segment tree
+	
+	// for i = 0 -> n-k
+	    // Query segment [i -> i+k-1]
+	cout << maxG;
+}
+
+// O( n*k*log(max_A) )
 int approach1() {
 	int n, k, b, maxG = 1;
     vector<int> a;

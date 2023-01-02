@@ -57,6 +57,7 @@ int approach1() {
 	i = 0;
 	while (m + n > 0) {
 		if (picked.find(group[i]) == picked.end()) {
+			// Which cluster to choose if a group has largest values of both cluster.
 			if (cluster[i] == 1 && n > 0) {
 				res += a[i];
 				--n;

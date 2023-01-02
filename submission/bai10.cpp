@@ -5,7 +5,7 @@ using namespace std;
 
 #define min(a, b) a < b ? a : b
 
-// O(n*n)
+// O(n*m)
 int approach1() {
     int m, n, tmp, max = 0;
     vector<vector<int>> a;

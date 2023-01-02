@@ -3,6 +3,13 @@
 #include <string>
 using namespace std;
 
+// KMP, Thuat toan Z
+
+/**
+Hash B -> 1 con so
+
+*/
+
 // O(n*n)
 int approach1() {
     string a, b;

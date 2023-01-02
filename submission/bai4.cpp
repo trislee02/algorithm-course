@@ -3,6 +3,13 @@
 #include <map>
 using namespace std;
 
+/**
+Nén dãy so lai t 1, 2, 3, ..., M
+Ði t? trái sang ph?i, v?i m?i s? a[j]:
+=> Ð?m s? lu?ng s? i < j mà a[i] > a[j] b?ng cách ùng segment d?m các s? trong do?n [a[j] + 1, M]
+=> Thêm a[j] vào segment tree
+*/
+
 // O(n*n)
 int approach1() {
     vector<int> a;
@@ -13,7 +20,7 @@ int approach1() {
     	cin >> tmp;
     	a.push_back(tmp);
     	auto x = m.find(tmp);
-    	if (x == m.end()) m.insert({ tmp, 0});
+    	if (x == m.end()) m.insert({ tmp, 0} );
 	}
 	
 	for (int i = 0; i < n; ++i) {
