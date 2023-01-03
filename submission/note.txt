@@ -1,0 +1,5 @@
+Problem 8: AC https://www.spoj.com/PTIT/problems/BCQUEEN/
+Problem 7: https://leetcode.com/problems/trapping-rain-water/
+Problem 6: 
+
+Problem 16: Seems good
