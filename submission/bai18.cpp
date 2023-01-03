@@ -11,7 +11,7 @@ int factorial[N];
 int getIndex(vector<int> permutation)
 {
   int n = permutation.size();
-  vector<bool> remainingValues(n, true);
+  vector<bool> remainingValues(n + 1, true);
 
   int permutationIndex = 0;
   for (int i = 0; i < n; ++i)
